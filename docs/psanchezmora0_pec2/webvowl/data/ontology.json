@@ -1,0 +1,834 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5", "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Flight_Date",
+    "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Flight_Date",
+      "undefined" : "Flight_Date"
+    },
+    "comment" : {
+      "undefined" : "Subclass of Date representing flight dates."
+    },
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Regular_Passenger",
+    "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Regular_Passenger",
+      "undefined" : "Regular_Passenger"
+    },
+    "comment" : {
+      "undefined" : "Subclass of Passenger representing regular passengers."
+    },
+    "id" : "2",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Solo_Traveller",
+    "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Solo_Traveller",
+      "undefined" : "Solo_Traveller"
+    },
+    "comment" : {
+      "undefined" : "Subclass of Type of Traveller representing solo travellers."
+    },
+    "id" : "16",
+    "superClasses" : [ "17" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Publication_Date",
+    "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Publication_Date",
+      "undefined" : "Publication_Date"
+    },
+    "comment" : {
+      "undefined" : "Subclass of Date representing publication date."
+    },
+    "id" : "18",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Couple_Traveller",
+    "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Couple_Traveller",
+      "undefined" : "Couple_Traveller"
+    },
+    "comment" : {
+      "undefined" : "Subclass of Type of Traveller representing couple travellers."
+    },
+    "id" : "19",
+    "superClasses" : [ "17" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Commercial_Aircraft",
+    "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Commercial_Aircraft",
+      "undefined" : "Commercial_Aircraft"
+    },
+    "comment" : {
+      "undefined" : "Subclass of Aircraft representing commercial aircraft."
+    },
+    "id" : "20",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Aircraft",
+    "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Aircraft",
+      "undefined" : "Aircraft"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Boeing_747",
+      "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "undefined",
+          "value" : "https://dbpedia.org/page/Boeing_747",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "undefined" : "Esta instancia representa un avión específico de la flota de Ryanair"
+      },
+      "labels" : {
+        "IRI-based" : "Boeing_747"
+      }
+    } ],
+    "subClasses" : [ "21", "20" ],
+    "comment" : {
+      "undefined" : "Class representing an aircraft."
+    },
+    "id" : "7"
+  }, {
+    "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Business_Class_Seat",
+    "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Business_Class_Seat",
+      "undefined" : "Business_Class_Seat"
+    },
+    "comment" : {
+      "undefined" : "Subclass of Seat representing business class seats."
+    },
+    "id" : "23",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Date",
+    "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Date",
+      "undefined" : "Date"
+    },
+    "subClasses" : [ "0", "18" ],
+    "comment" : {
+      "undefined" : "Class representing the date."
+    },
+    "id" : "1"
+  }, {
+    "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Verified_Review",
+    "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Verified_Review",
+      "undefined" : "Verified_Review"
+    },
+    "comment" : {
+      "undefined" : "Subclass of Review representing verified reviews."
+    },
+    "id" : "29",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Low_Cost_Airline",
+    "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Low_Cost_Airline",
+      "undefined" : "Low_Cost_Airline"
+    },
+    "comment" : {
+      "undefined" : "Subclass of Airline representing low-cost airlines."
+    },
+    "id" : "15",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#International_Flight",
+    "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "International_Flight",
+      "undefined" : "International_Flight"
+    },
+    "comment" : {
+      "undefined" : "Subclass of Flight representing international flights."
+    },
+    "id" : "42",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Passenger",
+    "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Passenger",
+      "undefined" : "Passenger"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Jack_Shephard",
+      "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+      "comment" : {
+        "undefined" : "Esta instancia representa un pasajero llamado Jack Shephard"
+      },
+      "labels" : {
+        "IRI-based" : "Jack_Shephard"
+      }
+    } ],
+    "subClasses" : [ "2", "43" ],
+    "comment" : {
+      "undefined" : "Class representing a passenger."
+    },
+    "id" : "3"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "44",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Luxury_Airline",
+    "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Luxury_Airline",
+      "undefined" : "Luxury_Airline"
+    },
+    "comment" : {
+      "undefined" : "Subclass of Airline representing luxury airlines."
+    },
+    "id" : "9",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Frequent_Flyer",
+    "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Frequent_Flyer",
+      "undefined" : "Frequent_Flyer"
+    },
+    "comment" : {
+      "undefined" : "Subclass of Passenger representing frequent flyers."
+    },
+    "id" : "43",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "54",
+    "label" : {
+      "IRI-based" : "nonNegativeInteger"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Origin_Country",
+    "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Origin_Country",
+      "undefined" : "Origin_Country"
+    },
+    "comment" : {
+      "undefined" : "Subclass of Country representing origin countries."
+    },
+    "id" : "41",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "55",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Private_Aircraft",
+    "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Private_Aircraft",
+      "undefined" : "Private_Aircraft"
+    },
+    "comment" : {
+      "undefined" : "Subclass of Aircraft representing private aircraft."
+    },
+    "id" : "21",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Comfort_Rating",
+    "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Comfort_Rating",
+      "undefined" : "Comfort_Rating"
+    },
+    "comment" : {
+      "undefined" : "Subclass of Rating representing comfort ratings."
+    },
+    "id" : "12",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Service_Rating",
+    "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Service_Rating",
+      "undefined" : "Service_Rating"
+    },
+    "comment" : {
+      "undefined" : "Subclass of Rating representing service ratings."
+    },
+    "id" : "27",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Seat",
+    "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Seat",
+      "undefined" : "Seat"
+    },
+    "subClasses" : [ "23", "49" ],
+    "comment" : {
+      "undefined" : "Class representing a seat."
+    },
+    "id" : "24"
+  }, {
+    "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Type_of_Traveller",
+    "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Type_of_Traveller",
+      "undefined" : "Type_of_Traveller"
+    },
+    "subClasses" : [ "16", "19" ],
+    "comment" : {
+      "undefined" : "Class representing a type of traveller."
+    },
+    "id" : "17"
+  }, {
+    "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Flight",
+    "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Flight",
+      "undefined" : "Flight"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Flight_RY1",
+      "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+      "comment" : {
+        "undefined" : "Esta instancia representa un vuelo específico operado por Ryanair"
+      },
+      "labels" : {
+        "IRI-based" : "Flight_RY1"
+      }
+    } ],
+    "subClasses" : [ "42", "36" ],
+    "comment" : {
+      "undefined" : "Class representing a flight."
+    },
+    "id" : "5"
+  }, {
+    "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Country",
+    "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Country",
+      "undefined" : "Country"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Australia",
+      "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "undefined",
+          "value" : "http://dbpedia.org/resource/Australia",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "undefined" : "Esta instancia representa un pais."
+      },
+      "labels" : {
+        "IRI-based" : "Australia"
+      }
+    } ],
+    "subClasses" : [ "41", "38" ],
+    "comment" : {
+      "undefined" : "Class representing a country."
+    },
+    "id" : "39"
+  }, {
+    "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Review",
+    "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Review",
+      "undefined" : "Review"
+    },
+    "subClasses" : [ "32", "29" ],
+    "comment" : {
+      "undefined" : "Class representing a review."
+    },
+    "id" : "30"
+  }, {
+    "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Domestic_Flight",
+    "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Domestic_Flight",
+      "undefined" : "Domestic_Flight"
+    },
+    "comment" : {
+      "undefined" : "Subclass of Flight representing domestic flights."
+    },
+    "id" : "36",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Unverified_Review",
+    "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Unverified_Review",
+      "undefined" : "Unverified_Review"
+    },
+    "comment" : {
+      "undefined" : "Subclass of Review representing unverified reviews."
+    },
+    "id" : "32",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Rating",
+    "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Rating",
+      "undefined" : "Rating"
+    },
+    "subClasses" : [ "27", "12" ],
+    "comment" : {
+      "undefined" : "Class representing a rating."
+    },
+    "id" : "13"
+  }, {
+    "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Destination_Country",
+    "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Destination_Country",
+      "undefined" : "Destination_Country"
+    },
+    "comment" : {
+      "undefined" : "Subclass of Country representing destination countries."
+    },
+    "id" : "38",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Airline",
+    "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Airline",
+      "undefined" : "Airline"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Ryanair",
+      "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "undefined",
+          "value" : "https://dbpedia.org/page/Ryanair",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "undefined" : "Esta instancia representa la aerolínea Ryanair"
+      },
+      "labels" : {
+        "IRI-based" : "Ryanair"
+      }
+    } ],
+    "subClasses" : [ "9", "15" ],
+    "comment" : {
+      "undefined" : "Class representing an airline"
+    },
+    "id" : "10"
+  }, {
+    "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Economy_Class_Seat",
+    "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Economy_Class_Seat",
+      "undefined" : "Economy_Class_Seat"
+    },
+    "comment" : {
+      "undefined" : "Subclass of Seat representing economy class seats."
+    },
+    "id" : "49",
+    "superClasses" : [ "24" ]
+  } ],
+  "property" : [ {
+    "id" : "4",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "6",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "8",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "53",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "56",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "57",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#hasPassenger",
+    "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "hasPassenger"
+    },
+    "domain" : "5",
+    "comment" : {
+      "undefined" : "Relates a flight to the passengers on that flight."
+    },
+    "attributes" : [ "object", "functional" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#hasAircraft",
+    "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "hasAircraft"
+    },
+    "domain" : "5",
+    "comment" : {
+      "undefined" : "Relates a flight to the aircraft used for that flight."
+    },
+    "attributes" : [ "object", "functional" ],
+    "id" : "6"
+  }, {
+    "range" : "10",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "8"
+  }, {
+    "range" : "13",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "11"
+  }, {
+    "range" : "10",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "14"
+  }, {
+    "range" : "1",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "22"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "25"
+  }, {
+    "range" : "13",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "26"
+  }, {
+    "range" : "30",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "28"
+  }, {
+    "range" : "30",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "31"
+  }, {
+    "range" : "7",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "33"
+  }, {
+    "range" : "7",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "34"
+  }, {
+    "range" : "5",
+    "domain" : "36",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "35"
+  }, {
+    "range" : "39",
+    "domain" : "38",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "37"
+  }, {
+    "range" : "39",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "40"
+  }, {
+    "range" : "3",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "45"
+  }, {
+    "range" : "3",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "46"
+  }, {
+    "range" : "24",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "47"
+  }, {
+    "range" : "24",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "48"
+  }, {
+    "range" : "17",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "50"
+  }, {
+    "range" : "17",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "51"
+  }, {
+    "range" : "5",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "52"
+  }, {
+    "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#hasNumberOfFlights",
+    "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "hasNumberOfFlights"
+    },
+    "domain" : "3",
+    "attributes" : [ "object", "functional" ],
+    "id" : "53"
+  }, {
+    "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#FlightNumber",
+    "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "FlightNumber"
+    },
+    "domain" : "3",
+    "comment" : {
+      "undefined" : "Flight numer"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "56"
+  }, {
+    "iri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#PassengerName",
+    "baseIri" : "http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "PassengerName"
+    },
+    "domain" : "3",
+    "comment" : {
+      "undefined" : "Name of the passenger."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "57"
+  } ]
+}

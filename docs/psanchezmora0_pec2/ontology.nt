@@ -1,0 +1,293 @@
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2000/01/rdf-schema#sameAs
+<http://www.w3.org/2000/01/rdf-schema#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#hasAircraft
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#hasAircraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#hasAircraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#hasAircraft> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Flight> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#hasAircraft> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Aircraft> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#hasAircraft> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a flight to the aircraft used for that flight." .
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#hasNumberOfFlights
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#hasNumberOfFlights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#hasNumberOfFlights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#hasNumberOfFlights> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Passenger> .
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#hasPassenger
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#hasPassenger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#hasPassenger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#hasPassenger> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Flight> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#hasPassenger> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Passenger> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#hasPassenger> <http://www.w3.org/2000/01/rdf-schema#comment> _:genid1 .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#hasPassenger> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a flight to the passengers on that flight." .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#hasPassenger> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#maxCardinality> "300"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#hasPassenger> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#FlightNumber
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#FlightNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#FlightNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Passenger> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#FlightNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#FlightNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Flight numer" .
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#PassengerName
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#PassengerName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#PassengerName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Passenger> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#PassengerName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#PassengerName> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the passenger." .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Aircraft
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Aircraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Aircraft> <http://www.w3.org/2000/01/rdf-schema#comment> "Class representing an aircraft." .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Aircraft> <http://www.w3.org/2000/01/rdf-schema#label> "Aircraft" .
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Airline
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Airline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Airline> <http://www.w3.org/2000/01/rdf-schema#comment> _:genid6 .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Airline> <http://www.w3.org/2000/01/rdf-schema#comment> "Class representing an airline" .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Airline> <http://www.w3.org/2000/01/rdf-schema#label> "Airline" .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> _:genid8 .
+_:genid8 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2002/07/owl#rational> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#PassengerName> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Business_Class_Seat
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Business_Class_Seat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Business_Class_Seat> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Seat> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Business_Class_Seat> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclass of Seat representing business class seats." .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Business_Class_Seat> <http://www.w3.org/2000/01/rdf-schema#label> "Business_Class_Seat" .
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Comfort_Rating
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Comfort_Rating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Comfort_Rating> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Rating> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Comfort_Rating> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclass of Rating representing comfort ratings." .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Comfort_Rating> <http://www.w3.org/2000/01/rdf-schema#label> "Comfort_Rating" .
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Commercial_Aircraft
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Commercial_Aircraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Commercial_Aircraft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Aircraft> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Commercial_Aircraft> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclass of Aircraft representing commercial aircraft." .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Commercial_Aircraft> <http://www.w3.org/2000/01/rdf-schema#label> "Commercial_Aircraft" .
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Country
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Country> <http://www.w3.org/2000/01/rdf-schema#comment> "Class representing a country." .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Country> <http://www.w3.org/2000/01/rdf-schema#label> "Country" .
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Couple_Traveller
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Couple_Traveller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Couple_Traveller> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Type_of_Traveller> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Couple_Traveller> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclass of Type of Traveller representing couple travellers." .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Couple_Traveller> <http://www.w3.org/2000/01/rdf-schema#label> "Couple_Traveller" .
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Date
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Date> <http://www.w3.org/2000/01/rdf-schema#comment> "Class representing the date." .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Date> <http://www.w3.org/2000/01/rdf-schema#label> "Date" .
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Destination_Country
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Destination_Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Destination_Country> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Country> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Destination_Country> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclass of Country representing destination countries." .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Destination_Country> <http://www.w3.org/2000/01/rdf-schema#label> "Destination_Country" .
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Domestic_Flight
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Domestic_Flight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Domestic_Flight> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Flight> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Domestic_Flight> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclass of Flight representing domestic flights." .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Domestic_Flight> <http://www.w3.org/2000/01/rdf-schema#label> "Domestic_Flight" .
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Economy_Class_Seat
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Economy_Class_Seat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Economy_Class_Seat> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Seat> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Economy_Class_Seat> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclass of Seat representing economy class seats." .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Economy_Class_Seat> <http://www.w3.org/2000/01/rdf-schema#label> "Economy_Class_Seat" .
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Flight
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Flight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Flight> <http://www.w3.org/2000/01/rdf-schema#comment> "Class representing a flight." .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Flight> <http://www.w3.org/2000/01/rdf-schema#label> "Flight" .
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Flight_Date
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Flight_Date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Flight_Date> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Date> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Flight_Date> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclass of Date representing flight dates." .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Flight_Date> <http://www.w3.org/2000/01/rdf-schema#label> "Flight_Date" .
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Frequent_Flyer
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Frequent_Flyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Frequent_Flyer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Passenger> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Frequent_Flyer> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclass of Passenger representing frequent flyers." .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Frequent_Flyer> <http://www.w3.org/2000/01/rdf-schema#label> "Frequent_Flyer" .
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#International_Flight
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#International_Flight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#International_Flight> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Flight> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#International_Flight> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclass of Flight representing international flights." .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#International_Flight> <http://www.w3.org/2000/01/rdf-schema#label> "International_Flight" .
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Low_Cost_Airline
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Low_Cost_Airline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Low_Cost_Airline> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Airline> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Low_Cost_Airline> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclass of Airline representing low-cost airlines." .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Low_Cost_Airline> <http://www.w3.org/2000/01/rdf-schema#label> "Low_Cost_Airline" .
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Luxury_Airline
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Luxury_Airline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Luxury_Airline> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Airline> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Luxury_Airline> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclass of Airline representing luxury airlines." .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Luxury_Airline> <http://www.w3.org/2000/01/rdf-schema#label> "Luxury_Airline" .
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Origin_Country
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Origin_Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Origin_Country> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Country> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Origin_Country> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclass of Country representing origin countries." .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Origin_Country> <http://www.w3.org/2000/01/rdf-schema#label> "Origin_Country" .
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Passenger
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Passenger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Passenger> <http://www.w3.org/2000/01/rdf-schema#comment> "Class representing a passenger." .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Passenger> <http://www.w3.org/2000/01/rdf-schema#label> "Passenger" .
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Private_Aircraft
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Private_Aircraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Private_Aircraft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Aircraft> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Private_Aircraft> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclass of Aircraft representing private aircraft." .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Private_Aircraft> <http://www.w3.org/2000/01/rdf-schema#label> "Private_Aircraft" .
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Publication_Date
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Publication_Date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Publication_Date> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Date> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Publication_Date> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclass of Date representing publication date." .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Publication_Date> <http://www.w3.org/2000/01/rdf-schema#label> "Publication_Date" .
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Rating
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Rating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Rating> <http://www.w3.org/2000/01/rdf-schema#comment> "Class representing a rating." .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Rating> <http://www.w3.org/2000/01/rdf-schema#label> "Rating" .
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Regular_Passenger
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Regular_Passenger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Regular_Passenger> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Passenger> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Regular_Passenger> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclass of Passenger representing regular passengers." .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Regular_Passenger> <http://www.w3.org/2000/01/rdf-schema#label> "Regular_Passenger" .
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Review
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Review> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Review> <http://www.w3.org/2000/01/rdf-schema#comment> "Class representing a review." .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Review> <http://www.w3.org/2000/01/rdf-schema#label> "Review" .
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Seat
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Seat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Seat> <http://www.w3.org/2000/01/rdf-schema#comment> "Class representing a seat." .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Seat> <http://www.w3.org/2000/01/rdf-schema#label> "Seat" .
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Service_Rating
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Service_Rating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Service_Rating> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Rating> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Service_Rating> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclass of Rating representing service ratings." .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Service_Rating> <http://www.w3.org/2000/01/rdf-schema#label> "Service_Rating" .
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Solo_Traveller
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Solo_Traveller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Solo_Traveller> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Type_of_Traveller> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Solo_Traveller> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclass of Type of Traveller representing solo travellers." .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Solo_Traveller> <http://www.w3.org/2000/01/rdf-schema#label> "Solo_Traveller" .
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Type_of_Traveller
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Type_of_Traveller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Type_of_Traveller> <http://www.w3.org/2000/01/rdf-schema#comment> "Class representing a type of traveller." .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Type_of_Traveller> <http://www.w3.org/2000/01/rdf-schema#label> "Type_of_Traveller" .
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Unverified_Review
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Unverified_Review> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Unverified_Review> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Review> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Unverified_Review> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclass of Review representing unverified reviews." .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Unverified_Review> <http://www.w3.org/2000/01/rdf-schema#label> "Unverified_Review" .
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Verified_Review
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Verified_Review> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Verified_Review> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Review> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Verified_Review> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclass of Review representing verified reviews." .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Verified_Review> <http://www.w3.org/2000/01/rdf-schema#label> "Verified_Review" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Australia
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Australia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Australia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Country> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Australia> <http://www.w3.org/2000/01/rdf-schema#comment> "Esta instancia representa un pais." .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Australia> <http://www.w3.org/2000/01/rdf-schema#sameAs> "http://dbpedia.org/resource/Australia" .
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Boeing_747
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Boeing_747> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Boeing_747> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Aircraft> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Boeing_747> <http://www.w3.org/2000/01/rdf-schema#comment> "Esta instancia representa un avión específico de la flota de Ryanair" .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Boeing_747> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/page/Boeing_747" .
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Flight_RY1
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Flight_RY1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Flight_RY1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Flight> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Flight_RY1> <http://www.w3.org/2000/01/rdf-schema#comment> "Esta instancia representa un vuelo específico operado por Ryanair" .
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Jack_Shephard
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Jack_Shephard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Jack_Shephard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Passenger> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Jack_Shephard> <http://www.w3.org/2000/01/rdf-schema#comment> "Esta instancia representa un pasajero llamado Jack Shephard" .
+# 
+# http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Ryanair
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Ryanair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Ryanair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Airline> .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Ryanair> <http://www.w3.org/2000/01/rdf-schema#comment> "Esta instancia representa la aerolínea Ryanair" .
+<http://www.semanticweb.org/sapujapu/ontologies/2024/3/untitled-ontology-5#Ryanair> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/page/Ryanair" .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
